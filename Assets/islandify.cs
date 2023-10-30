@@ -6,7 +6,7 @@ using UnityEngine.ProBuilder;
 
 public class islandify : MonoBehaviour
 {
-    ProBuilderMesh mesh;
+    /*ProBuilderMesh mesh;
     Vertex[] vertices;
 
     // Start is called before the first frame update
@@ -92,5 +92,14 @@ public class islandify : MonoBehaviour
         }
 
         return 0;
+    }*/
+
+    ProBuilderMesh mesh;
+    Vertex[] vertices;
+
+    private void Start()
+    {
+        mesh = GetComponent<ProBuilderMesh>();
+        vertices = mesh.GetVertices();
     }
 }
