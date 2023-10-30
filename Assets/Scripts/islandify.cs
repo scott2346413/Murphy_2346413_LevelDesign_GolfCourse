@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.ProBuilder;
+using NaughtyAttributes;
 
 public class islandify : MonoBehaviour
 {
@@ -96,10 +97,49 @@ public class islandify : MonoBehaviour
 
     ProBuilderMesh mesh;
     Vertex[] vertices;
+    Vector3 xzCentre;
 
-    private void Start()
+    float maxY;
+    float minY;
+
+    [Button]
+    void Setup()
     {
         mesh = GetComponent<ProBuilderMesh>();
         vertices = mesh.GetVertices();
+
+        List<float> yValues = new List<float>();
+        Vector3 totalVector = Vector3.zero;
+
+        foreach(Vertex vertex in vertices)
+        {
+            Vector3 pos = vertex.position;
+            yValues.Add(pos.y);
+            totalVector += pos;
+        }
+
+        maxY = Mathf.Max(yValues.ToArray());
+        minY = Mathf.Min(yValues.ToArray());
+
+        float numVertices = vertices.Length;
+        xzCentre = new Vector3(totalVector.x/numVertices, 0, totalVector.z/numVertices);
+    }
+
+    [Button]
+    void Islandify()
+    {
+        List<Vertex> newVertices = new List<Vertex>();
+
+        foreach(Vertex vertex in vertices)
+        {
+            Vector3 offsetDirection = xzCentre - vertex.position;
+            Vector3 offset = offsetDirection * (vertex.position.y - minY)/(maxY-minY);
+
+            Vertex newVertex = new Vertex();
+            newVertex.position = vertex.position + offset;
+        }
+
+        mesh.SetVertices(newVertices);
+        mesh.ToMesh();
     }
 }
