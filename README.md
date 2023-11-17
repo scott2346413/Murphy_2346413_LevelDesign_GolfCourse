@@ -1,4 +1,4 @@
-![fireUnderCaverns](https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/0781ec6e-d707-49da-abb1-07dfa7bfd80d)# The Floating Kingdom - VR Golf Course
+# The Floating Kingdom - VR Golf Course
 
 ## Overview
 
