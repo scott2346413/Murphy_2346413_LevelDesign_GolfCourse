@@ -1,4 +1,4 @@
-# The Floating Kingdom - VR Golf Course
+![fireUnderCaverns](https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/0781ec6e-d707-49da-abb1-07dfa7bfd80d)# The Floating Kingdom - VR Golf Course
 
 ## Overview
 
@@ -35,9 +35,14 @@ Key features of the golf course:
 ## Screenshots
 
 A showcase of images from the project. There was a focus on sightlines so each section of the course provides a unique perspective on the rest.
-<img src="https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/10d418aa-071e-4628-a00e-f13aeb427489" width="750">
-<img src="https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/158d9d36-bca7-4da9-a86d-470d6107d8be" width="750">
-<img src="https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/f46e44ac-5e4f-4afb-99b7-a40b46eddf07" width="750">
+
+<img src="https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/10d418aa-071e-4628-a00e-f13aeb427489" height="180">
+<img src="https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/158d9d36-bca7-4da9-a86d-470d6107d8be" height="180">
+<img src="https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/f46e44ac-5e4f-4afb-99b7-a40b46eddf07" height="180">
+
+![village](https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/4f218e56-c5f4-47d8-bf3d-7d89487d64e7)
+![fireUnderCaverns](https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/b2a2ebbe-68a0-45fd-85b3-4ce9b2a95b77)
+![hitBall](https://github.com/scott2346413/Murphy_2346413_LevelDesign_GolfCourse/assets/147524027/573ee1e2-a5b8-4549-aa4b-bbb4411bca25)
 
 ## Installation
 
